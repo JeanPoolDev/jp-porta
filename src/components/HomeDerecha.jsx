@@ -22,26 +22,15 @@ const redes = [
 export const HomeDerecha = () => {
   return (
     <section className="w-2/4 miCara flex text-white">
-      <img className="bg-cover w-full" src="/public/miCara.jpg" alt="jp" />
-
-      {/* <div className="absolute bottom-10 right-12 flex gap-5">
-        <div className="w-20 h-20 flex items-center justify-center border">
-          Facebook
-        </div>
-        <div className="w-20 h-20 flex items-center justify-center border">
-          Facebook
-        </div><div className="w-20 h-20 flex items-center justify-center border">
-          Facebook
-        </div>
-      </div> */}
-
+      <img className="bg-cover min-w-full" src="/public/miCara.jpg" alt="jp" />
 
       <div className="absolute bottom-10 right-12 flex gap-5">
         {
           redes.map(rede => (
             <div
               key={rede.nombre}
-              className="w-20 h-20 flex items-center justify-center border-2">
+              className="w-20 h-20 flex items-center justify-center border-2
+              hover:bg-black transition-colors">
               <a
                 href={rede.link}>
                 {rede.icon}

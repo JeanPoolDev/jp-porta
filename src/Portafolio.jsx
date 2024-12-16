@@ -1,5 +1,6 @@
 import { HomeCentral } from "./components/HomeCentral";
 import { HomeDerecha } from "./components/HomeDerecha";
+import { HomeIzquierda } from "./components/HomeIzquierda";
 
 const Portafolio = () => {
   return (
@@ -9,11 +10,16 @@ const Portafolio = () => {
 
       </header>
 
-      <section className="bg-red-300 w-screen h-screen flex">
-        <div className="w-1/12 border">parte lateral</div>
+      <section className="w-full h-screen flex">
+        <HomeIzquierda />
         <HomeCentral />
         <HomeDerecha />
       </section>
+
+      <section className="w-full h-screen flex">
+        wi
+      </section>
+
 
       <footer>
 
