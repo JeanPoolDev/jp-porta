@@ -22,7 +22,7 @@ const redes = [
 export const HomeDerecha = () => {
   return (
     <section className="w-2/4 miCara flex text-white">
-      <img className="bg-cover min-w-full" src="/public/miCara.jpg" alt="jp" />
+      <img className="bg-cover min-w-full" src="/miCara.jpg" alt="jp" />
 
       <div className="absolute bottom-10 right-12 flex gap-5">
         {

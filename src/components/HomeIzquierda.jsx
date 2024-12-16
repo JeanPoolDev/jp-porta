@@ -6,7 +6,7 @@ export const HomeIzquierda = () => {
       <a href="#">
         <img
           className="w-16 h-16 rounded-full bg-black object-cover"
-          src="/public/miCara.jpg" alt="logo" />
+          src="/miCara.jpg" alt="logo" />
       </a>
       <div className="-rotate-90 text-nowrap text-2xl flex justify-center">
         Jean Pool @Dev
