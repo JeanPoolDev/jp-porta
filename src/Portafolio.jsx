@@ -17,7 +17,7 @@ const Portafolio = () => {
       </section>
 
       <section className="w-full h-screen flex">
-        wi
+
       </section>
 
 
