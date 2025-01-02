@@ -15,8 +15,7 @@ export const AboutAbajo = () => {
           <span className="desarrollador">Desarrollador</span>
         </div>
         <div className="text-lg">
-          Empeze desarrollando con html, css Y javacript. Ahora sigo creciendo en
-          mi aprendisaje con tecnologias nuevas y facinantes.
+          Empecé desarrollando con Html, Css y JavaScript. Ahora sigo creciendo en mi aprendizaje con tecnologias nuevas y fascinantes.
         </div>
       </div>
 
