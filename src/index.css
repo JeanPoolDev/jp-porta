@@ -12,3 +12,16 @@ body {
   background-color: #EBE1DB;
   font-family: "Montserrat", sans-serif;
 }
+
+.diseñador{
+  background: -webkit-linear-gradient(16deg, #F24E1E,#F2994A,#BB6BD9,#56CCF2,
+  #6FCF97);
+  background-clip: text;
+  color: transparent;
+}
+
+.desarrollador{
+  background: -webkit-linear-gradient(16deg,#007ACC, #1E9EFF);
+  background-clip: text;
+  color: transparent;
+}

@@ -1,7 +1,7 @@
 
 export const AboutCentral = () => {
   return (
-    <div className="row-span-2 flex justify-center items-start flex-col border-r-2 border-black">
+    <div className="row-span-2 flex justify-center items-start flex-col rounded-2xl bg-[#fbf9f8] ml-8 my-8 mr-5 shadow-xl">
       <div className="pl-20 pr-28">
         <h1 className="text-7xl font-bold mb-10">Sobre Mi</h1>
         <div className="text-xl space-y-5">
