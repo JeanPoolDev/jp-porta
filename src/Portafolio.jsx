@@ -13,13 +13,13 @@ const Portafolio = () => {
 
       </header>
 
-      <section className="w-full h-screen flex flex-col md:flex-row">
+      <section className="w-full h-full md:h-screen flex flex-col md:flex-row">
         <HomeIzquierda />
         <HomeCentral />
         <HomeDerecha />
       </section>
 
-      <section className="w-full h-screen flex">
+      <section className="w-full h-full md:h-screen flex">
         <div className="w-0 md:w-1/12">
         </div>
 
