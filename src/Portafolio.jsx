@@ -4,6 +4,8 @@ import { AboutCentral } from "./components/AboutCentral";
 import { HomeCentral } from "./components/HomeCentral";
 import { HomeDerecha } from "./components/HomeDerecha";
 import { HomeIzquierda } from "./components/HomeIzquierda";
+import { ProyectosDerecha } from "./components/proyects/ProyectosDerecha";
+import { ProyectosIzquierda } from "./components/proyects/ProyectosIzquierda";
 
 const Portafolio = () => {
   return (
@@ -27,6 +29,16 @@ const Portafolio = () => {
           <AboutCentral />
           <AboutArriba />
           <AboutAbajo />
+        </div>
+      </section>
+
+      <section className="w-full h-full md:h-screen flex">
+        <div className="w-0 md:w-1/12">
+        </div>
+
+        <div className="w-full h-full flex">
+          <ProyectosIzquierda />
+          <ProyectosDerecha />
         </div>
       </section>
 

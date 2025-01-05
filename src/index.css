@@ -32,3 +32,50 @@ body {
   background-position: center;
   background-size: cover;
 }
+
+.pastillas {
+  @apply px-3 py-1 rounded-xl;
+}
+
+.mouse-hover:hover {
+  background-color: transparent;
+  border: 2px solid #56CCF2;
+}
+
+.hover-j:hover {
+  background-color: transparent;
+  border: 2px solid #FFFF00;
+}
+
+.hover-t:hover {
+  background-color: transparent;
+  border: 2px solid #3178C6;
+  color: black;
+}
+
+.hover-c:hover {
+  background-color: transparent;
+  border: 2px solid #264DE4;
+  color: black;
+}
+
+.mover {
+  position: relative;
+  animation: moveUp 5s infinite;
+}
+
+@keyframes moveUp {
+  0% {
+    top: 0;
+  }
+
+  50% {
+    top: 50px;
+    /* Mueve el elemento hacia abajo */
+  }
+
+  100% {
+    top: 0;
+    /* Regresa a la posición inicial */
+  }
+}

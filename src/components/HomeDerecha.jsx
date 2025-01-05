@@ -22,7 +22,7 @@ const redes = [
 export const HomeDerecha = () => {
   return (
     <section className="md:w-2/4 h-[350px] md:h-full flex text-white 
-    md:p-0 mb-10 md:mb-0 miCara mx-4 md:mx-0 rounded-xl relative">
+    md:p-0 mb-10 md:mb-0 miCara mx-4 md:mx-0 rounded-xl md:rounded-none relative">
 
       <div className="flex gap-3 md:gap-5 absolute -bottom-5 -translate-x-1/2 left-1/2 md:translate-x-0 md:bottom-10 md:right-5 ">
         {
