@@ -20,13 +20,19 @@ export const Linkeding = () => {
 
 export const Menu = () => {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"><path fill="currentColor" d="M4 18q-.425 0-.712-.288T3 17t.288-.712T4 16h16q.425 0 .713.288T21 17t-.288.713T20 18zm0-5q-.425 0-.712-.288T3 12t.288-.712T4 11h16q.425 0 .713.288T21 12t-.288.713T20 13zm0-5q-.425 0-.712-.288T3 7t.288-.712T4 6h16q.425 0 .713.288T21 7t-.288.713T20 8z" /></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="currentColor" d="M4 18q-.425 0-.712-.288T3 17t.288-.712T4 16h16q.425 0 .713.288T21 17t-.288.713T20 18zm0-5q-.425 0-.712-.288T3 12t.288-.712T4 11h16q.425 0 .713.288T21 12t-.288.713T20 13zm0-5q-.425 0-.712-.288T3 7t.288-.712T4 6h16q.425 0 .713.288T21 7t-.288.713T20 8z" /></svg>
   )
 }
 
 export const Figma = () => {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 24 24"><path fill="currentColor" d="M15.332 8.668a3.333 3.333 0 0 0 0-6.663H8.668a3.333 3.333 0 0 0 0 6.663a3.333 3.333 0 0 0 0 6.665a3.333 3.333 0 0 0 0 6.664A3.334 3.334 0 0 0 12 18.664V8.668z" /><circle cx="15.332" cy="12" r="3.332" fill="currentColor" /></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 24 24" ><path fill="currentColor" d="M15.332 8.668a3.333 3.333 0 0 0 0-6.663H8.668a3.333 3.333 0 0 0 0 6.663a3.333 3.333 0 0 0 0 6.665a3.333 3.333 0 0 0 0 6.664A3.334 3.334 0 0 0 12 18.664V8.668z" /><circle cx="15.332" cy="12" r="3.332" fill="currentColor" /></svg>
+  )
+}
+
+export const FigmaMovil = () => {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24" ><path fill="currentColor" d="M15.332 8.668a3.333 3.333 0 0 0 0-6.663H8.668a3.333 3.333 0 0 0 0 6.663a3.333 3.333 0 0 0 0 6.665a3.333 3.333 0 0 0 0 6.664A3.334 3.334 0 0 0 12 18.664V8.668z" /><circle cx="15.332" cy="12" r="3.332" fill="currentColor" /></svg>
   )
 }
 

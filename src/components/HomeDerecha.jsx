@@ -21,15 +21,16 @@ const redes = [
 
 export const HomeDerecha = () => {
   return (
-    <section className="w-2/4 miCara flex text-white">
-      <img className="bg-cover min-w-full" src="/miCara.jpg" alt="jp" />
+    <section className="w-full md:w-2/4 h-2/4 md:h-full flex text-white p-5 md:p-0">
+      <img className="bg-cover md:min-w-full w-full rounded-xl md:rounded-none"
+        src="/miCara.jpg" alt="jp" />
 
-      <div className="absolute bottom-10 right-12 flex gap-5">
+      <div className="flex gap-5 absolute bottom-10 right-14 md:bottom-10 md:right-12 ">
         {
           redes.map(rede => (
             <div
               key={rede.nombre}
-              className="w-20 h-20 flex items-center justify-center border-2
+              className="w-20 h-20 flex items-center justify-center 
               hover:bg-black transition-colors">
               <a
                 href={rede.link}>
